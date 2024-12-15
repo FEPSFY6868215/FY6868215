@@ -2,6 +2,9 @@
 
 <html>
 
+
+
+  
   <head>
       <img src="WebBanner2023.png" alt="Banner" width="1200" height="300">
       <h1><b>ENG0018 Computer Laboratory 2024/25</b></h1>
@@ -92,7 +95,7 @@ With the rapid growth of technology, and advancements in the oil and energy sect
                 </html>
             <h3 id="Introduction">Introdcution</h3>
                
-                  <pre>
+                  <pre id="Introduction_InText">
 There are different types of hydrogen, the main ones being Green, Grey and Blue, we will be mainly focusing on Green,
                     it is produced by electrolysis from renewable sources involves breaking down water molecules (H2O) 
                     into oxygen (O2) and hydrogen (H2) <a href=”https://www.iberdrola.com/sustainability/green-hydrogen”>(Iberdrola, 2022)</a> . This is the general overview but to delve further 
@@ -108,7 +111,7 @@ There are different types of hydrogen, the main ones being Green, Grey and Blue,
 </body>
                 </html>
 <h3 id=”Analysis and discussion”>Analysis and discussion</h3>
-
+<p id="Analysis_InText">
  <pre>
 
    <h3 id=”Analysis and discussion”>How do we produce Hydrogen?</h3>
@@ -196,6 +199,37 @@ Iberdrola (2022). Green hydrogen: an Alternative That Reduces Emissions and Care
 <video src="conference project slides.pdf 3.mp4" width="800" height="450" controls>
 </video>
      
+<p id="totalWordCount"></p>
+
+     <hr>
+
+     <script>
+
+       function displayWordCount(sectionId, outputId) {
+         const text = document.getElementById(sectionId).textContent;
+
+         const wordArray = text.trim().split(/\s+);
+
+                                          const wordCount = wordArray.length;
+         return wordCount; 
+       }
+
+       function displayTotalWordCount() {
+
+         const IntroductionCount = displayWordCount("Introdcution_InText")
+         const AnalysisCount = displayWordCount("Analysis_InText);
+        const totalWordCount = IntroductionCount + AnalysisCount;
+
+         documemnt.getElementById("totalWordCount").innerText = 'Total word count: ${totalWordCount}';
+       }
+
+       window.onload = displayTotalWordCount;
+     </script>
+     
+
+                                                
+     </script>
+
      
     </html>
     
