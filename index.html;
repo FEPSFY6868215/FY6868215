@@ -2,7 +2,10 @@
 
 <html>
 
+<div id="last-updated">Loading last update time...</div>
+<button onclick="verifyLastUpdatedTime()" style="display
 
+<button onclick="verify
 
   
   <head>
