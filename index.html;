@@ -73,7 +73,7 @@
     </pre>
 
     <h3 id="Introduction">Introduction</h3>
-    <pre id="Introduction_InText">
+ 
         There are different types of hydrogen, the main ones being Green, Grey and Blue, we will be mainly focusing on Green,
         it is produced by electrolysis from renewable sources involving breaking down water molecules (H2O) into oxygen (O2) 
         and hydrogen (H2) <a href="https://www.iberdrola.com/sustainability/green-hydrogen">(Iberdrola, 2022)</a>. This is the general 
@@ -86,7 +86,7 @@
     </pre>
 
     <h3 id="AnalysisAndDiscussion">Analysis and Discussion</h3>
-    <pre id="Analysis_InText">
+ 
         There are different types of hydrogen, the main ones being Green, Grey and Blue, we will be mainly focusing on Green, it is produced
         by electrolysis from renewable sources, which involves breaking down water molecules (H2O) into oxygen (O2) and hydrogen (H2) 
         <a href="https://www.iberdrola.com/sustainability/green-hydrogen">(Iberdrola, 2022)</a>. This is the general overview, but to delve further, 
@@ -110,33 +110,6 @@
         Copernicus.eu. (2024). The year 2024 set to end up as the warmest on record | Copernicus. [online]
     </pre>
 
-    <p id="totalWordCount"></p>
-    
-    <script>
-        function countWords(text) {
-            // Split text by spaces and return the length of the array
-            return text.trim().split(/\s+/).length;
-        }
-
-        function displayWordCount() {
-            // Get the text content of Introduction and Analysis sections
-            const introductionText = document.getElementById("Introduction_InText").textContent;
-            const analysisText = document.getElementById("Analysis_InText").textContent;
-
-            // Count words in each section
-            const introductionWordCount = countWords(introductionText);
-            const analysisWordCount = countWords(analysisText);
-
-            // Calculate total word count
-            const totalWordCount = introductionWordCount + analysisWordCount;
-
-            // Display the word count
-            document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
-        }
-
-        // Run displayWordCount when the page loads
-        window.onload = displayWordCount;
-    </script>
 
 </body>
 </html>
