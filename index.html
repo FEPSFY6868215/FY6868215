@@ -202,36 +202,6 @@ Iberdrola (2022). Green hydrogen: an Alternative That Reduces Emissions and Care
 <video src="conference project slides.pdf 3.mp4" width="800" height="450" controls>
 </video>
      
-     <div id="wordCountDisplay"></div>
-    <script>
-        
-        function calculateSectionWordCount(selector) {
-            const section = document.querySelector(selector);
-            if (!section) {
-                console.error(`No element found with selector: ${selector}`);
-                return 0;
-            }
-          
-            const text = section.innerText || section.textContent;
-           
-            const words = text.match(/\b\w+\b/g);
-           
-            return words ? words.length : 0;
-        }
-
-        function displaySectionWordCount(selector) {
-            const wordCount = calculateSectionWordCount(selector);
-            const displayElement = document.getElementById('wordCountDisplay');
-            
-            if (displayElement) {
-                displayElement.textContent = `Word Count for this page: ${wordCount}`;
-            }
-        }
-      
-        window.onload = () => {
-            displaySectionWordCount('#paper');
-        };
-        </script>
 
 <div id="last-updated">Loading last update time...</div>
 
@@ -279,5 +249,52 @@ Iberdrola (2022). Green hydrogen: an Alternative That Reduces Emissions and Care
 </script>
      
     </html>
+
+<div id="wordCountDisplay"></div>
+    <script>
+        // Function to calculate word count for a specific section
+        function calculateSectionWordCount(selector) {
+            const section = document.querySelector(selector);
+            if (!section) {
+                console.error(`No element found with selector: ${selector}`);
+                return 0;
+            }
+            // Get the text content of the section
+            const text = section.innerText || section.textContent;
+            // Match words using a regular expression
+            const words = text.match(/\b\w+\b/g);
+            // Return the word count (if no words, return 0)
+            return words ? words.length : 0;
+        }
+        // Function to display the word count
+        function displaySectionWordCount(selector) {
+            const wordCount = calculateSectionWordCount(selector);
+            const displayElement = document.getElementById('wordCountDisplay');
+            
+            if (displayElement) {
+                displayElement.textContent = `Word Count for this page: ${wordCount}`;
+            }
+        }
+        // Run the word count calculation when the page loads
+        window.onload = () => {
+            displaySectionWordCount('#paper');
+        };
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
     
