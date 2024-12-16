@@ -93,7 +93,7 @@ With the rapid growth of technology, and advancements in the oil and energy sect
                 </html>
             <h3 id="Introduction">Introdcution</h3>
                
-                  <pre id="Introduction_InText">
+               <p>
 There are different types of hydrogen, the main ones being Green, Grey and Blue, we will be mainly focusing on Green,
                     it is produced by electrolysis from renewable sources involves breaking down water molecules (H2O) 
                     into oxygen (O2) and hydrogen (H2) <a href=”https://www.iberdrola.com/sustainability/green-hydrogen”>(Iberdrola, 2022)</a> . This is the general overview but to delve further 
@@ -109,7 +109,6 @@ There are different types of hydrogen, the main ones being Green, Grey and Blue,
 </body>
                 </html>
 <h3 id=”Analysis and discussion”>Analysis and discussion</h3>
-<p id="Analysis_InText"> </p>
 
  <pre>
 
