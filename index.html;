@@ -2,11 +2,6 @@
 
 <html>
 
-<div id="last-updated">Loading last update time...</div>
-<button onclick="verifyLastUpdatedTime()" style="display
-
-<button onclick="verify
-
   
   <head>
       <img src="WebBanner2023.png" alt="Banner" width="1200" height="300">
@@ -198,40 +193,10 @@ Iberdrola (2022). Green hydrogen: an Alternative That Reduces Emissions and Care
 
 
   </pre>
-</p>
 
 <video src="conference project slides.pdf 3.mp4" width="800" height="450" controls>
 </video>
      
-<p id="totalWordCount"></p>
-
-     <hr>
-
-     <script>
-
-       function displayWordCount(sectionId, outputId) {
-         const text = document.getElementById(sectionId).textContent;
-
-         const wordArray = text.trim().split(/\s+);
-
-                                          const wordCount = wordArray.length;
-         return wordCount; 
-       }
-
-       function displayTotalWordCount() {
-
-         const IntroductionCount = displayWordCount("Introdcution_InText")
-         const AnalysisCount = displayWordCount("Analysis_InText);
-        const totalWordCount = IntroductionCount + AnalysisCount;
-
-         documemnt.getElementById("totalWordCount").innerText = 'Total word count: ${totalWordCount}';
-       }
-
-       window.onload = displayTotalWordCount;
-
-    
-                                                
-     </script>   
 
      
     </html>
