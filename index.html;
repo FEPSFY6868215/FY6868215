@@ -1,118 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hydrogen Conference Paper</title>
-    <style>
-        table {
-            font-family: Arial, sans-serif;
-            border-collapse: collapse;
-            width: 30%;
-        }
 
-        td, th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
+<html>
 
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
+<div id="last-updated">Loading last update time...</div>
+<button onclick="verifyLastUpdatedTime()" style="display
 
-        p.ex1 {
-            margin-left: 250px;
-        }
+<button onclick="verify
 
-        .mySlides {
-            display: none;
-        }
+  
+  <head>
+      <img src="WebBanner2023.png" alt="Banner" width="1200" height="300">
+      <h1><b>ENG0018 Computer Laboratory 2024/25</b></h1>
+      <h2>Student URN: 6868215</h2>
+  </head>
+<hr>
+  <h2 style="font-family:calibri;"><b>Conference Paper: Is Investing in Hydrogen feasible to help solve our Climate Crisis? </b></h2>
+  <hr>
+<!style for tables>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 30%
 
-        body {
-            background-color: #FFFFFF;
-            margin-left: 50px;
-        }
-    </style>
-</head>
-<body>
+    }
 
-    <img src="WebBanner2023.png" alt="Banner" width="1200" height="300">
-    <h1><b>ENG0018 Computer Laboratory 2024/25</b></h1>
-    <h2>Student URN: 6868215</h2>
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
 
-    <hr>
-    <h2 style="font-family: calibri;"><b>Conference Paper: Is Investing in Hydrogen feasible to help solve our Climate Crisis?</b></h2>
-    <hr>
+  tr:nth-child(even) {
+    backgrounf-colour: #dddddd;
+  }
 
-    <!-- Table of Contents -->
-    <table>
-        <tr>
+
+</style>
+
+      <style>
+    p.ex1 {
+      margin-left: 250px;
+    }
+        </style>
+    </head>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3css">
+      <style>
+        .mySlides {display:none;}
+        </style>
+
+      <body style="background-color:#FFFFFF;margin-left:50px;">
+
+
+        <!table of contents>
+        <table>
+
+          <tr>
             <th><h3>Table of contents</h3></th>
-        </tr>
-        <tr>
-            <td><a href="#Abstract">Abstract</a></td>
-        </tr>
-        <tr>
-            <td><a href="#Introduction">Introduction</a></td>
-        </tr>
-        <tr>
-            <td><a href="#AnalysisAndDiscussion">Analysis and Discussion</a></td>
-        </tr>
-        <tr>
-            <td><a href="#References">References</a></td>
-        </tr>
-    </table>
+          </tr>
+          <tr>
+            <td><a href="#Abstract">Abstract</td>
+          </tr>
+          <tr>
+            <td><a href="#Introduction">Introduction</td>
+          </tr>
+          <tr>
+            <td><a href="#Analysis and discussion">Analysis and discussion</td>
+          </tr>
 
-    <h3 id="Abstract">Abstract</h3>
-    <pre>
-        With the rapid growth of technology, and advancements in the oil and energy sector, there has been a clear interest
-        in the investment of renewables by governments with scientist approved backing due to the growing
-        mutual concern of climate change. In this article we will be mainly focusing on one specific application
-        which generally reflects the pros and cons of most of all sources of renewables.
-    </pre>
+          <tr>
+            <td><a href="#References">References</td>
+          </tr>
+        </table>
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title>MathML Example</title>
+            </head>
+          <body>
 
-    <h3 id="Introduction">Introduction</h3>
- 
-        There are different types of hydrogen, the main ones being Green, Grey and Blue, we will be mainly focusing on Green,
-        it is produced by electrolysis from renewable sources involving breaking down water molecules (H2O) into oxygen (O2) 
-        and hydrogen (H2) <a href="https://www.iberdrola.com/sustainability/green-hydrogen">(Iberdrola, 2022)</a>. This is the general 
-        overview, but to delve further, to first obtain Hydrogen there are three main steps: Molecular Transformation; Gasification 
-        and Water Electrolysis. In the initial stages, a high temperature water vapour is used to separate the carbon from the 
-        hydrogen that makes up the natural gas <a href="www.acciona.com">(www.acciona.com, n.d.)</a> to obtain dihydrogen and carbon dioxide. 
-        Then in Gasification, the biomass is burned in a reactor at high temperatures <a href="https://www.energy.gov/eere/fuelcells/hydrogen-production-biomass-gasification">(US Department of Energy, 2019)</a>
-        to make a desired yield. Finally, the products undergo water electrolysis to separate the hydrogen completely 
-        with the help of direct electrical current which connects to the anode and cathode via the water.
-    </pre>
 
-    <h3 id="AnalysisAndDiscussion">Analysis and Discussion</h3>
- 
-        There are different types of hydrogen, the main ones being Green, Grey and Blue, we will be mainly focusing on Green, it is produced
-        by electrolysis from renewable sources, which involves breaking down water molecules (H2O) into oxygen (O2) and hydrogen (H2) 
-        <a href="https://www.iberdrola.com/sustainability/green-hydrogen">(Iberdrola, 2022)</a>. This is the general overview, but to delve further, 
-        to first obtain Hydrogen there are three main steps: Molecular Transformation; Gasification and Water Electrolysis. In the initial stages 
-        a high temperature water vapour is used to separate the carbon from the hydrogen that makes up the natural gas to obtain dihydrogen 
-        and carbon dioxide. Then in Gasification, the biomass is burned in a reactor at high temperatures <a href="https://www.energy.gov/eere/fuelcells/hydrogen-production-biomass-gasification">(US Department of Energy, 2019)</a> to make a desired yield. 
-        Finally, the products undergo water electrolysis to separate the hydrogen completely with the help of direct electrical current which 
-        connects to the anode and cathode via the water.
-    </pre>
-
-    <h3 id="References">References</h3>
-    <pre>
-        Iberdrola (2022). Green hydrogen: an Alternative That Reduces Emissions and Cares for Our Planet
-        www.acciona.com. (n.d.). Green hydrogen: the energy of the future essential for decarbonisation | ACCIONA
-        US Department of Energy (2019). Hydrogen Production: Biomass Gasification [online] Energy.gov
-        Pilkington, B. (2022). How is Green Hydrogen Produced? [online] AZoCleantech.com.
-        LibreTexts (2016). 23.9: Electrolysis of Water. [online] Chemistry LibreTexts
-        Queensland Government (2013). Nitrogen oxides | Air pollutants. [online]
-        Jon (2023). Ormazabal. [online] Ormazabal
-        Encyclopedia Britannica. (n.d.). Photochemical smog | atmospheric science. [online]
-        Copernicus.eu. (2024). The year 2024 set to end up as the warmest on record | Copernicus. [online]
-    </pre>
-
+              </body>
+                </html>
+            <h3 id="Abstract">Abstract</h3>
+           
+                  <pre>
+With the rapid growth of technology, and advancements in the oil and energy sector, there has been a clear interest
+                    in the investment of renewables by governments with scientist approved backing due to the growing
+                    mutual concern of climate change. In this article we will be mainly focusing on one specific application
+                    which generally reflects the pros and cons of most of all sources of renewables. 
+                     </pre>
+              </p>
 
 </body>
-</html>
+                </html>
+            <h3 id="Introduction">Introdcution</h3>
+               
+                  <pre id="Introduction_InText">
+There are different types of hydrogen, the main ones being Green, Grey and Blue, we will be mainly focusing on Green,
+                    it is produced by electrolysis from renewable sources involves breaking down water molecules (H2O) 
+                    into oxygen (O2) and hydrogen (H2) <a href=”https://www.iberdrola.com/sustainability/green-hydrogen”>(Iberdrola, 2022)</a> . This is the general overview but to delve further 
+                    to first obtain Hydrogen there are three main steps: Molecular Transformation; Gasification and Water 
+                    Electrolysis. In the initial stages a high temperature water vapour is used to separate the carbon from 
+                    the hydrogen that makes up the natural gas <a href=”www.acciona.com”>(www.acciona.com, n.d.)</a> to obtain dihydrogen and carbon dioxide. 
+                    Then in Gasification, the biomass is burned in a reactor at high temperatures <a href=”https://www.energy.gov/eere/fuelcells/hydrogen-production-biomass-gasification”>(US Department of Energy, 2019)</a>
+                    to make a desired yield. Finally, the products undergo water electrolysis to separate the hydrogen completely 
+                    with the help of direct electrical current which connects to the anode and cathode via the water. 
+                     </pre>
+              </p>
+
+</body>
+                </html>
+<h3 id=”Analysis and discussion”>Analysis and discussion</h3>
+<p id="Analysis_InText"> </p>
+
+ <pre>
+
+   <h3 id=”Analysis and discussion”>How do we produce Hydrogen?</h3>
+  
+
+There are different types of hydrogen, the main ones being Green, Grey and Blue, we will be mainly focusing on Green, it is produced
+by electrolysis from renewable sources involves breaking down water molecules (H2O) into oxygen (O2) and hydrogen (H2) <a href=”https://www.iberdrola.com/sustainability/green-hydrogen”>(Iberdrola, 2022)</a> .
+This is the general overview but to delve further to first obtain Hydrogen there are three main steps: Molecular Transformation; Gasification
+and Water Electrolysis. In the initial stages a high temperature water vapour is used to separate the carbon from the hydrogen that makes up the
+natural gas  to obtain dihydrogen and carbon dioxide. Then in Gasification, the biomass is burned in a reactor at high temperatures
+ <a href=”https://www.energy.gov/eere/fuelcells/hydrogen-production-biomass-gasification”>(US Department of Energy, 2019)</a> to make a desired yield. Finally, the products undergo water electrolysis to separate the hydrogen completely with the help 
+of direct electrical current which connects to the anode and cathode via the water. 
+
+   <h3 id=”Analysis and discussion”>How is green hydrogen Produced?</h3>
+   
+
+To specifically obtain Green hydrogen now, we use electrolysis which splits molecules into their constituent parts <a href=”https://www.azocleantech.com/article.aspx?ArticleID=1523 ”>(Pilkington, 2022)</a> therefore as we are using
+water we obtain Hydrogen and oxygen at the cathode and anode respectively. In the electrolyser cell there are a pair of platinum electrodes immersed in the water, 
+ <a href=”https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12)/23%3A_Electrochemistry/23.09%3A_Electrolysis_of_Water”>(LibreTexts, 2016)</a> platinum is used as it is chemically inert and will not produce side products during the process. Alongside this, an electrolyte is added usually 
+such as sulfuric acid as pure water will not carry a high enough charge density. The yield of hydrogen produced from electrolysis is usually “about 70-80% of the energy
+used to produce.” 
+
+   <head>  
+   <head>
+     <img src="Picture 1.jpg" alt="Banner" width="1000" height="300">
+     An Overview of how making green hydrogen works in practice <a href=”https://www.ormazabal.com/en-gb/what-is-green-hydrogen-2/”>Jon (2023)</a>
+
+   <h3 id=”Analysis and discussion”>Pros of hydrogen as a renewable energy source:</h3>
+
+
+The pros outweigh the cons of using hydrogen by a large majority when it comes to benefitting the situation of climate change. This is because green hydrogen does
+not produce any polluting gases at all <a href=”https://www.iberdrola.com/sustainability/green-hydrogen”>(Iberdrola, 2022)</a> , making it invaluable as the main contributor to global warming is greenhouse gases. Furthermore, it has a
+range of applications, it can be used in the automotive industry, used as fuel for motor vehicles which are renown for producing oxides of nitrogen which is the 
+crucial components for photochemical smog <a href=”https://www.qld.gov.au/environment/management/monitoring/air/air-pollution/pollutants/nitrogen-oxides ”>(Queensland Government, 2013)</a> , this can then lead to the production of acid rain as “nitric oxides can combine with water
+vapour in the atmosphere to form nitric acid <a href=”https://www.britannica.com/science/photochemical-smog ”>acid (Encyclopedia Britannica, n.d.)</a> . Thus, damaging buildings, contaminating natural habitats and affecting the human 
+respiratory system. Therefore, using hydrogen would eradicate the risk of increasing greenhouse gas emissions. Additionally, it is easy to store making it the ideal 
+component in being the world’s main provider for clean green energy. 
+
+   <h3 id=”Analysis and discussion”>Compromises of using hydrogen as a renewable energy source:</h3>
+   
+
+The root of all issues being money, producing hydrogen is no exception to this, the immense amount of money required to cover energy, storage and safety
+precautions is the main reason why companies and governments are not investing in it. Processes such as electrolysis are very costly due to the high 
+energy demands required and lack of resources that most countries have. Moreover, hydrogen is extremely flammable and volatile, therefore there must 
+be extended safety features when storing it in motor vehicles which are susceptible to explosions in leaks and in general too. This would require
+new Hydrogen plants having to be built away from populous areas like cities and closer to countryside’s which can cause controversy amongst farmers
+and inhabitants as it does run the risk of large-scale explosions if anything were to go wrong. 
+
+    <h3 id=”Analysis and discussion”>Conclusion:</h3>
+
+Overall, investing in renewable energy is inevitable as 2024 it set to be the warmest year on record so far as the global average temperature
+will be more than 1.55 degrees Celsius       <a href=”https://climate.copernicus.eu/year-2024-set-end-warmest-record”>(Copernicus.eu, 2024)</a> compared to previous years. This statistic outlines the rapid growth of the 
+Earth’s temperature annually and how this causes an alarm for quick efficient action hence the need for investment of renewables. 
+Hence the use of green hydrogen is the best candidate to help slow down carbon dioxides and other greenhouse gas emissions as of 
+all the various Hydrogens (Blue, Grey) it releases the smallest amount of carbon dioxide. 
+
+ </p>
+
+   <h3 id=”References”>References:</h3>
+<p>
+  <pre>
+Iberdrola (2022). Green hydrogen: an Alternative That Reduces Emissions and Cares for Our Planet
+    
+    www.acciona.com. (n.d.). Green hydrogen: the energy of the future essential for decarbonisation 
+    | ACCIONA
+
+    US Department of Energy (2019). Hydrogen Production: Biomass Gasification [online] Energy.gov
+
+    Pilkington, B. (2022). How is Green Hydrogen Produced? [online] AZoCleantech.com.
+
+    LibreTexts (2016). 23.9: Electrolysis of Water. [online] Chemistry LibreTexts
+
+    Queensland Government (2013). Nitrogen oxides | Air pollutants. [online]
+
+    Jon (2023). Ormazabal. [online] Ormazabal
+
+    Encyclopedia Britannica. (n.d.). Photochemical smog | atmospheric science. [online] 
+
+    Copernicus.eu. (2024). The year 2024 set to end up as the warmest on record | Copernicus. [online]
+
+
+  </pre>
+</p>
+
+<video src="conference project slides.pdf 3.mp4" width="800" height="450" controls>
+</video>
+     
+<p id="totalWordCount"></p>
+
+     <hr>
+
+     <script>
+
+       function displayWordCount(sectionId, outputId) {
+         const text = document.getElementById(sectionId).textContent;
+
+         const wordArray = text.trim().split(/\s+);
+
+                                          const wordCount = wordArray.length;
+         return wordCount; 
+       }
+
+       function displayTotalWordCount() {
+
+         const IntroductionCount = displayWordCount("Introdcution_InText")
+         const AnalysisCount = displayWordCount("Analysis_InText);
+        const totalWordCount = IntroductionCount + AnalysisCount;
+
+         documemnt.getElementById("totalWordCount").innerText = 'Total word count: ${totalWordCount}';
+       }
+
+       window.onload = displayTotalWordCount;
+
+    
+                                                
+     </script>   
+
+     
+    </html>
 
      
 
